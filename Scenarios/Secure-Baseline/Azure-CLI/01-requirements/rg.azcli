@@ -1,13 +1,13 @@
 # Important: Tested these scripts only through WSL Terminal. Git Bash doesn't work.
 
 #!/usr/bin/env bash
-SUBSCRIPTIONID='xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
+SUBSCRIPTIONID='7d2529f2-f8b2-4eed-beea-24db93eda831'
 HUBRGNAME='hub-aro-rg'
 SPOKERGNAME='spoke-aro-rg'
 ARCRGNAME='arc-aro-rg'
 AZFW_NAME='azfw'
 BASTION_NAME='bastion-hub'
-LOCATION='eastus'
+LOCATION='westeurope'
 AROCLUSTER='arocluster'
 #PULLSECRETLOCATION=@/mnt/c/Users/umarm/Downloads/pull-secret.txt
 uniqueId=$RANDOM
